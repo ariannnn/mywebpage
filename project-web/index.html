@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
     <meta charset="UTF-8" />
     <title>Ballistic Pizza!</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
-
-    <body>
-    <div class = "header">
+   <div class = "header">
         <h1 class = "titleh1"> A&A's Ballistic Pastas </h1>
-
     </div>
+    <body>
+<div class="row">
+  <div class="column left"> 
     <div class = "menu">
         <h1> Menu </h1>
         <h2> Pastas </h2>
@@ -24,14 +25,40 @@
         <img src ="https://www.eatwell101.com/wp-content/uploads/2020/04/Shrimp-Pasta-recipe.jpg" width = "400" length = "400"> </img>
         <h3> Special: Homemade One Skillet Chessy Penne $30 </h3>
         <img src = "https://carlsbadcravings.com/wp-content/uploads/2016/11/One-Skillet-Cheesy-Penne-19.jpg" width = "400" length = "400"> </img>
-        <img src = ""
-
-
-
- 
- 
+        <img src = "" 
+        </div>
     </div>
-    </body>
-
-
+</div>
+  <div class="column middle" >
+    <h1>Reviews</h1>
+    <h2>Rated 5/5 </h2>
+    <p>BEST PASTA RESTAURANT IN THE WORLDD - Aaron Li </p>
+    <p>Best pasta in the world! - Dyllon Preston </p>
+    <p>I was walking around the West Village, and came across A&A’s Ballistic Pasta Fresca. I tried their Chicken Parmesan Baked Ziti and it was absolutely delicious. The service was exceptional, I would 100% recommend coming here. 5/5 STARS!
+- Khadijah Akter</p>
+    <p>Amazing Restaurant - Sonia Tan </p>
+    <p> THIS PLACE SHOULD BE A BUFFET SO THAT I CAN EAT ALL I WANT - Alice Yeh </p>
+  </div>
+    <div class="column right" >
+    <h2>Place an ORDER?</h2>
+    <form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <label for="order">Enter the order number you want to order a takeout for :</label><br>
+    <input type="text" id="order" name="order" value=""><br>
+    <label for="cardNum">Enter your 16 digit card number:</label><br>
+    <input type="int" id="cardNum" name="cardNum" value=""><br><br>
+    <label for="edate"> Expiring date:</label><br>
+    <input type="int" id="edate" name="edate" value=""><br>
+    <label for="securityCode"> 3 number digit at the back:</label><br>
+    <input type="int" id="securityCode" name="securityCode" value=""><br><br>
+    <p> Please make sure all your infomation is correct before you press sumbit!</p>
+    <input type="submit" value="Submit">
+    </form> 
+    </div>
+</div>
+</div>
+</body>
 </html>

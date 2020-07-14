@@ -1,12 +1,33 @@
 body{
     background-color: antiquewhite;
 }
-
 .header{
     text-align: center;
 }
-
 .titleh1{
     color: red;
-
+}
+* {
+  box-sizing: border-box;
+}
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.left {
+  width: 35%;
+}
+.middle {
+  width: 40%;
+}
+.right {
+  width: 25%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
